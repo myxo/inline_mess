@@ -1,8 +1,7 @@
 #include <iostream>
 
-#include "a.h"
-#include "b.h"
-
+void print_from_b();
+void print_from_a();
 int one();
 
 int main(){

@@ -4,10 +4,10 @@ one: a.o b.o main.cpp
 two: a.o b.o main.cpp
 	g++ main.cpp b.o a.o -o main
 
-a.o: a.cpp a.h
+a.o: a.cpp
 	g++ a.cpp -c
 
-b.o: b.cpp b.h
+b.o: b.cpp
 	g++ b.cpp -c
 
 clean:

@@ -1,5 +1,3 @@
-#include "b.h"
-
 #include <iostream>
 
 inline int one(){
